@@ -1,0 +1,491 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@font-face {
+    font-family: futurak;
+    src: url(./asset/futurak.ttf);
+  }
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+:root {
+    --black: #000000;
+    --red: #ed1c24;
+    --white: #ffffff;
+  }
+
+body{
+    background-color: black;
+    color: var(--white);
+}
+/* navbar start */
+
+.saltimage{
+    width: 165px; 
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+
+#menu{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--white);
+}
+
+.get-btn{
+    background-color: transparent;
+    color: var(--white);
+    padding: 15px 20px;
+    border: 1px solid white;
+    border-radius: 25px;
+}
+
+.order-btn{
+    background-color: var(--red);
+    border: none;
+    color: var(--white);
+    padding: 15px 20px;
+    border-radius: 25px;
+}
+
+.arrow-icon{
+    color: var(--red);
+}
+
+.arrow-span{
+    padding: 4px 9px;
+    background-color: var(--white);
+    border-radius: 25px;
+}
+
+.bars-icon{
+    display: none;
+}
+
+.bars-menu{
+    display:none ;
+}
+/* navbar end */
+
+/* hero section start */
+.salt-image{
+    width: 100%;
+}
+
+#Welcome-text{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#welcome-to{
+    font-size: 40px;
+    font-weight: 200;
+    font-family: 'Apercu Pro', sans-serif;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 200;
+    font-family: 'Apercu Pro', sans-serif;
+    
+}
+.futurak-font{
+    font-family: futurak;
+    font-weight: lighter;
+    font-size: 52px;
+}
+
+#main-conatiner{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 30px;
+    
+}
+
+#brands-conatiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.brand-image{
+    background-color: var(--white);
+    width: 260px;
+    height: 140px;
+    display: flex;
+    border-radius: 10px;
+}
+
+#Order-btn{
+    background-color: transparent;
+    color: var(--white);
+    border: 1px solid gray;
+    padding: 8px 15px;
+    border-radius: 25px;
+}
+/* hero section end */
+#Restaurant{
+    text-align: center;
+    margin-top: 70px;
+}
+
+#main{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin: 50px 0px; 
+}
+
+#Islamabad{
+    color: var(--red);
+    letter-spacing: 10px;
+}
+
+#islamabad-restaurant{
+    font-size: 20px;
+    justify-items: flex-start;
+
+}
+.branch1{
+    width: 440px;
+    height: 250px;
+}
+
+#Direction-btn{
+    background-color: transparent;
+    border: 1px solid gray;
+    color: var(--white);
+    padding: 15px 35px;
+    border-radius: 25px;
+    margin-top: 30px;
+
+}
+
+#main-faisalabad{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+    margin-top: 50px;
+    margin: 50px 0px;  
+}
+
+.faisalabad-hotel{
+    width: 457px;
+    height: 250px;
+}
+
+#Kohinoor{
+    justify-items: flex-start;
+    font-size: 20px;
+}
+
+#faisal-red{
+    color: var(--red);
+}
+
+.franchise-saltn{
+    font-family: futurak;
+    font-weight: lighter;
+    color: var(--white);
+    font-size: 35px;
+
+}
+
+
+
+#Express{
+    flex-wrap: wrap;
+}
+
+#Pepper{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#flex-row{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+
+}
+
+.text-red{
+    color: var(--red);
+}
+
+p{
+    padding: 8px 8px;
+    color: rgb(170, 170, 170);
+    font-family: 'Apercu Pro', sans-serif;
+
+}
+
+.images-hotels{
+    width: 320px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.Express-saltn{
+    font-family: futurak;
+    font-weight: lighter;
+    color: var(--white);
+    font-size: 25px;
+}
+
+
+
+#Village-Franchise{
+    text-align: center;
+    margin-top: 50px;
+}
+#Gujranwala-row{
+    display: flex;
+    flex-wrap: wrap;
+    /* margin: 10px 0px; */
+    /* padding: 30px 0px; */
+    
+}
+
+#Gujranwala-text{
+    flex-wrap: wrap;
+    margin: 50px 0px;
+    /* padding: 50px 0px; */
+}
+
+
+.Village-image{
+    width: 538px;
+    height: 309px;
+}
+
+.Gujranwala-btn{
+    background-color: rgb(18, 208, 18);
+    border: none;
+    color: var(--white);
+    border-radius: 25px;
+    padding: 17px 20px;
+    margin: 20px 10px;
+    cursor: pointer;
+}
+
+#Social-feed{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#Social-feed-image{
+    display: flex;
+    gap: 30px;
+    padding: 40px 0px;
+    flex-wrap: wrap;
+}
+
+.Social-image{
+    width: 230px;
+    height: 230px;
+}
+
+/* footer start */
+#main-footer{
+    margin: 70px;
+    display: flex;
+   
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+h3{
+    padding: 0px 8px 10px;
+    
+}
+
+.footer-img{
+    width: 140px;
+    display: flex;
+    
+}
+
+
+#footer-para{
+    width: 320px;
+   
+}
+
+#food-cout{
+    width: 250px;
+}
+
+#Powered-by{
+    display: flex;
+    color: rgb(170, 170, 170);
+    justify-content: center;
+    gap: 55%;
+    font-family: 'Apercu Pro', sans-serif;
+}
+
+
+/* footer end */
+
+
+
+
+@media(max-width:840px){
+    #home{
+        display: block;
+    }
+
+    #about{
+        display: block;
+    }
+
+    #public{
+        display: block;
+    }
+
+    .get-btn{
+        display: none;
+    }
+
+    .order-btn{
+        display: none;
+    }
+}
+
+
+
+@media(max-width:640px){
+    #home{
+        display: none;
+    }
+
+    #about{
+        display: none;
+    }
+
+    #public{
+        display: none;
+    }
+
+    .get-btn{
+        display: none;
+    }
+
+    .bars-icon{
+        display: block;
+    }
+
+    .bars-menu{
+        display: block;
+    }
+
+    
+    .order-btn{
+        display: block;
+    }
+    
+    .order-btn{
+        padding: 10px 10px;
+    }
+    .salt-image{
+        width: 100%;
+    }
+
+    .brand-image{
+        width: 100%;
+        margin: 10px 5px;
+ }
+
+    #navbar{
+        justify-content: space-around;
+    }
+
+
+    #franchise-para{
+        font-size: smaller;
+    }
+
+    #main{
+        margin: 20px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #islamabad-restaurant{
+        font-size: smaller;
+    }
+
+    .branch1{
+        width: 95%;
+        margin-top: 20px;
+    }
+
+    .images-hotels{
+        width: 95%;
+        margin-top: 20px;
+    }
+    
+    #islamabad-restaurant{
+        text-align: center;
+        align-items: center;
+    }
+    #main-faisalabad{
+        margin: 20px 0px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-wrap: wrap-reverse;
+    }
+
+    #Gujranwala-text{
+        text-align: center;
+    }
+
+    .Village-image{
+        width: 95%;
+        margin: 20px 5px;
+    }
+    
+    #Social-feed-image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #main-footer{
+        text-align: center;
+    }
+
+    .footer-img{
+        margin: 0px 85px;
+    }
+}
