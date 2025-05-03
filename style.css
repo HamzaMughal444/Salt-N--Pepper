@@ -304,6 +304,7 @@ p{
 #Social-feed-image{
     display: flex;
     gap: 30px;
+    justify-content: center;
     padding: 40px 0px;
     flex-wrap: wrap;
 }
